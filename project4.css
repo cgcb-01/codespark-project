@@ -62,7 +62,8 @@ header::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("https://i.pinimg.com/736x/ea/22/52/ea2252585895fec78d46a96e8566bd35.jpg") center/cover no-repeat;
+  background: url("https://i.pinimg.com/736x/ea/22/52/ea2252585895fec78d46a96e8566bd35.jpg")
+    center/cover no-repeat;
   filter: brightness(0.8);
   z-index: 0;
 }
@@ -91,7 +92,8 @@ header h1 {
   }
 }
 @keyframes blink {
-  from, to {
+  from,
+  to {
     border-color: transparent;
   }
   50% {
@@ -127,7 +129,8 @@ h2 {
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid rgb(0, 0, 0);
-  animation: typingres 2.5s steps(20, end) forwards, blink2 0.3s step-end infinite;
+  animation: typingres 2.5s steps(20, end) forwards,
+    blink2 0.3s step-end infinite;
   animation-delay: 4s;
 }
 .introduction .card-container .founder {
@@ -135,11 +138,10 @@ h2 {
   font-family: serif;
   text-align: left;
   padding-left: 0px;
-  width: 0px;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid rgb(0, 0, 0);
-  animation: typingf 2.5s steps(10, end) forwards, blink2 0.3s step-end infinite;
+  animation: typingf 2.5s steps(20, end) forwards, blink2 0.3s step-end infinite;
   animation-delay: 4s;
 }
 @keyframes typingres {
@@ -152,14 +154,15 @@ h2 {
 }
 @keyframes typingf {
   from {
-    width: 0;
+    width: 0ch;
   }
   to {
-    width: 75%;
+    width: 10ch;
   }
 }
 @keyframes blink2 {
-  from, to {
+  from,
+  to {
     border-color: transparent;
   }
   50% {
@@ -181,7 +184,8 @@ h2 {
 }
 .introduction .card-container a:hover {
   background-color: #111;
-  box-shadow: 0 0 10px 3px rgba(0, 162, 255, 0.333), 0 0 10px 5px rgba(0, 162, 255, 0.333);
+  box-shadow: 0 0 10px 3px rgba(0, 162, 255, 0.333),
+    0 0 10px 5px rgba(0, 162, 255, 0.333);
   color: #baffba;
 }
 .introduction .pic {
@@ -192,7 +196,8 @@ h2 {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 .introduction .pic:hover {
-  box-shadow: 0 0 10px 3px rgba(255, 174, 0, 0.333), 0 0 10px 5px rgba(255, 174, 0, 0.333);
+  box-shadow: 0 0 10px 3px rgba(255, 174, 0, 0.333),
+    0 0 10px 5px rgba(255, 174, 0, 0.333);
 }
 
 .dish {
@@ -236,7 +241,8 @@ h2 {
   text-align: center;
 }
 .dish .card:hover {
-  box-shadow: 0 0 10px 3px rgba(0, 162, 255, 0.333), 0 0 10px 5px rgba(0, 162, 255, 0.333);
+  box-shadow: 0 0 10px 3px rgba(0, 162, 255, 0.333),
+    0 0 10px 5px rgba(0, 162, 255, 0.333);
 }
 
 .order {
@@ -312,4 +318,4 @@ h2 {
 .footer p {
   margin: 6px 0;
   line-height: 1.5;
-}/*# sourceMappingURL=project4.css.map */
+} /*# sourceMappingURL=project4.css.map */
